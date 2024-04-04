@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Second, run the sanity server:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+go to sanity directory and run the following command
 
-## Learn More
+```bash
+npm run dev
+```
+Open [http://localhost:3333](http://localhost:3333) with your browser to see the result.
 
-To learn more about Next.js, take a look at the following resources:
+1. Add the product: Since in this scenarion the e-commerce is single merchant, we can add the product by sanity (CMS)
+2. Get the list of the products or Latest products added: Here we connect to the CMS (sanity) to display the product by Category and or Last Added
+3. Add to Cart and Payment: Add to Cart and Checkout with Stripe Payment Gateway // but i got the error because i didn't use the stripe plan (not-free)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+It's been 3 days I got a bug when deploy the app to vercel because of sanity problem, even I have use the .vercelignore it still got the error
