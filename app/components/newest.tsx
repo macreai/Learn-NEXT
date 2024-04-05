@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import product from "@../../sanity/schemaTypes/product";
+import product from "../../sanity/schemaTypes/product";
 import { simplifiedProduct } from "../interface";
 import {client} from "../lib/sanity";
 
