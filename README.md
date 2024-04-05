@@ -1,5 +1,7 @@
 ## Prequisite
 Node JS Last Version
+use-shopping-cart
+sanity
 
 ## Getting Started
 
