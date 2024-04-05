@@ -1,6 +1,6 @@
 ## Prequisite
-Node JS Last Version
-use-shopping-cart
+Node JS Last Version,
+use-shopping-cart,
 sanity
 
 ## Getting Started
