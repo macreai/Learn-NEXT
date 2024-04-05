@@ -1,3 +1,6 @@
+## Prequisite
+Node JS Last Version
+
 ## Getting Started
 
 First, run the development server:
